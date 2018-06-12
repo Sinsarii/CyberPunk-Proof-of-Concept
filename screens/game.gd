@@ -5,7 +5,8 @@ extends Node
 # var b = "textvar"
 var current_screen
 
-var screens = { "main_menu" : preload("res://screens/main_menu.tscn")
+var screens = { "main_menu" : preload("res://screens/main_menu.tscn"),
+				"gui" : preload("res://screens/gui.tscn")
 	
 }
 
@@ -32,3 +33,4 @@ func _load_screen(name):
         current_screen.add_child(new_screen)
     else:
         print("[ERROR] Cannot load screen: ", name)
+
