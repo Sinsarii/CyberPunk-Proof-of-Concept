@@ -6,9 +6,12 @@ extends "abstract_screen.gd"
 onready var dialogue_panel = get_node("dialogue_panel")
 onready var stats_panel = get_node("stats_panel")
 onready var text_box = get_node("dialogue_panel/dialogue_text_box/text_box")
+var player_class = load("res://data/characters/player.gd")
+var player = player_class.new()
 func _ready():
 	text_box.add_text("test test test test test test test test testtest test test test test test test test testtest test test test test test test test testtest test test test test test test test testtest test test test test test test test testtest test test test test test test test testtest test test test test test test test testtest test test test test test test test testtest test test test test test test test testtest test test test test test test test testtest test test test test test test test testtest test test test test test test test testtest test test test test test test test testtest test test test test test test test testtest test test test test test test test testtest test test test test test test test test")
 	display_date_time()
+
 	# Called every time the node is added to the scene.
 	# Initialization here
 
@@ -41,8 +44,8 @@ func display_date_time():
 	var month = 01
 	var year = 2024
 	var hour = 14
-	var minute = 30
-	
+	var minute = player.stats["energy"] - 10
 	var date_time_label = get_node("stats_panel/date_time_label")
 	
 	date_time_label.set_text(str(day) + "/" + str(month) + "/" + str(year) + "     " + str(hour) + ":" + str(minute))
+

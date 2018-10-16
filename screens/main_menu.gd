@@ -27,3 +27,8 @@ func _on_resize_large_pressed():
 
 func _on_gui_button_pressed():
 	emit_signal("next_screen","gui")
+
+
+
+func _on_save_button_pressed():
+	save.save_game()

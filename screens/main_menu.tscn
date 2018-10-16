@@ -2,7 +2,7 @@
 
 [ext_resource path="res://screens/main_menu.gd" type="Script" id=1]
 
-[node name="main_menu" type="Control"]
+[node name="main_menu" type="Control" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -269,12 +269,38 @@ text = "go to gui"
 flat = false
 align = 1
 
-[connection signal="pressed" from="resize" to="." method="_on_resize_pressed"]
+[node name="save_button" type="Button" parent="." index="5"]
 
-[connection signal="pressed" from="resize_large" to="." method="_on_resize_pressed"]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 623.0
+margin_top = 235.0
+margin_right = 989.0
+margin_bottom = 346.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+flat = false
+align = 1
+
+[connection signal="pressed" from="resize" to="." method="_on_resize_pressed"]
 
 [connection signal="pressed" from="resize_large" to="." method="_on_resize_large_pressed"]
 
+[connection signal="pressed" from="resize_large" to="." method="_on_resize_pressed"]
+
 [connection signal="pressed" from="gui_button" to="." method="_on_gui_button_pressed"]
+
+[connection signal="pressed" from="save_button" to="." method="_on_save_button_pressed"]
 
 
