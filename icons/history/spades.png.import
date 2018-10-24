@@ -7,10 +7,7 @@ path="res://.import/spades.png-6b5df109e832d124ef9b3525ce1c5952.stex"
 [deps]
 
 source_file="res://icons/history/spades.png"
-source_md5="0de0b2ddd7c2c9a17df7322bf5a278d9"
-
 dest_files=[ "res://.import/spades.png-6b5df109e832d124ef9b3525ce1c5952.stex" ]
-dest_md5="675d88bb02bca95b633c5f42dd520ca8"
 
 [params]
 

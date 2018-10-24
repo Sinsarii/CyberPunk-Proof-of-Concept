@@ -2,13 +2,13 @@
 #Parent class to
 #	NPC.gd
 #	Player.gd
-#	Squad.gd
-#	Enemy.gd
-#	Enemy_Unique.gd
+#	TBD
 
-#basic character stats
-var stats = {health = 100, energy = 100}
+#this class will hold all common functions for interactable types
 
-func save():
-	return stats
+#still determining if save class should be shared
+#func save():
+#	return stats
 
+
+	

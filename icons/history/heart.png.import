@@ -7,10 +7,7 @@ path="res://.import/heart.png-20619403680e861b91c18e28ed1f04ef.stex"
 [deps]
 
 source_file="res://icons/history/heart.png"
-source_md5="a69526bebf2822a0e6709bb56caaddd6"
-
 dest_files=[ "res://.import/heart.png-20619403680e861b91c18e28ed1f04ef.stex" ]
-dest_md5="016f3ef9a22658e87b0ac412ddb03083"
 
 [params]
 

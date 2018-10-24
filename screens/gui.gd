@@ -37,15 +37,22 @@ func _on_stats_panel_close_pressed():
 	stats_panel.hide()
 	get_node("stats_panel_open").show()
 
+	
+
 #STATS BOX FUNCTIONS
 
 func display_date_time():
+	player.energy = 10 
 	var day = 01
 	var month = 01
 	var year = 2024
 	var hour = 14
-	var minute = player.stats["energy"] - 10
+	var minute = player.energy
 	var date_time_label = get_node("stats_panel/date_time_label")
 	
 	date_time_label.set_text(str(day) + "/" + str(month) + "/" + str(year) + "     " + str(hour) + ":" + str(minute))
 
+
+
+func _on_title_screen_pressed():
+	emit_signal("next_screen","main_menu")

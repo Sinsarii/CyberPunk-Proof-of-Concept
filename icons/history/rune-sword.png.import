@@ -7,10 +7,7 @@ path="res://.import/rune-sword.png-85d469809026a045b46c4f3e6b6fec0a.stex"
 [deps]
 
 source_file="res://icons/history/rune-sword.png"
-source_md5="c303657f279fa61d75ca5b8efa8163a1"
-
 dest_files=[ "res://.import/rune-sword.png-85d469809026a045b46c4f3e6b6fec0a.stex" ]
-dest_md5="5b98f6e26a0827d4114b1d8f21230dd8"
 
 [params]
 
