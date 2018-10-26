@@ -1,1 +1,1 @@
-{"npc.gd":{"energy":100,"health":70,"progress":3},"player.gd":{"energy":200,"health":150,"progress":12}}
+{"npc.gd":{"affinity":3,"energy":100,"health":100},"player.gd":{"energy":100,"health":100,"progress":12}}

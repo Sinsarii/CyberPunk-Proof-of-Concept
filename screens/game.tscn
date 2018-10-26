@@ -16,4 +16,6 @@ transform = Transform2D( 1, 0, 0, 1, 0, 0 )
 
 [node name="screen" type="Node2D" parent="." index="1"]
 
+[node name="characters" type="Node" parent="." index="2"]
+
 
